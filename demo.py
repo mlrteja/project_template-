@@ -7,9 +7,9 @@ app=Flask(__name__)
 
 def index():
     logging.info("we are just testing logging module")
-    return "Hello world"
+    return "Hello wrld"
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=True,port=8000)
 
 
  
